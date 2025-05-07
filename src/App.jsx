@@ -1,20 +1,40 @@
-import React from "react";
-import styles from "./components/styles/styles.css"
-import {changeInit} from "./redux-state/reduces/initial"
-import { useSelector, useDispatch } from "react-redux";
+import React, { } from "react";
+import Header from "./components/views/Header";
+import Footer from "./components/views/Footer";
+import Body from "./components/views/Body";
 
-const { InitialText } = styles;
+import { setClientMode, setSectionPadding } from "./redux-state/reduces/initial"
+import { useDispatch, useSelector } from "react-redux";
+
 
 function App() {
+
+  const clientMode = useSelector(state => (state.initial.clientMode));
+  const sectionPadding = useSelector(state => (state.initial.sectionPadding));
   const dispatch = useDispatch();
-  dispatch(changeInit());
-  const isInit = useSelector(state => state.initial.init) ? '' : 'not';
+  window.onresize = recalcWindowSize;
+  window.onload = recalcWindowSize;
+
+  function recalcWindowSize() {
+    let newClientMode = 'desktop';
+    let newSectionPadding;
+    if (window.innerWidth <= 992) newClientMode = 'mobile';
+    if (clientMode !== newClientMode) {
+      dispatch(setClientMode(newClientMode));
+    }
+    if (window.innerWidth <= 720) newSectionPadding = '20px';
+    else if (window.innerWidth <= 1120) newSectionPadding = '50px';
+    else newSectionPadding = '100px';
+    if (sectionPadding !== newSectionPadding) {
+      dispatch(setSectionPadding(newSectionPadding));
+    }
+  };
 
   return (
     <>
-      <InitialText>
-        Welcome to the "template-1-usual"! <br /> Redux is {isInit} compilled
-      </InitialText>
+      <Header/>
+      <Body/>
+      <Footer/>
     </>
   );
 }

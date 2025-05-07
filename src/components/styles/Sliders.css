@@ -1,0 +1,15 @@
+.sliderArrow::after,
+.sliderArrow::before
+{
+    background-color: gray !important;
+    
+}
+.sliderArrow{
+    /* position: fixed;
+    transform: translateX(-50%); */
+    background-color: rgb(243, 244, 241) !important;
+    border: 3px solid gray;
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
