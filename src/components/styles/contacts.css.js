@@ -96,7 +96,7 @@ const contactsCSS = {
     Icons: styled.div`
         display: grid;
         width: fit-content;
-        grid-template-columns: repeat(3, auto);
+        grid-template-columns: repeat(4, auto);
         column-gap: 16px;
         @media (max-width: 785px) {
             margin-top: 10px;

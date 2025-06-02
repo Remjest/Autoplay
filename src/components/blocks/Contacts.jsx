@@ -4,6 +4,7 @@ import { YMaps, Map, Placemark } from "@pbe/react-yandex-maps";
 import contactsCSS from "../styles/contacts.css";
 import Vk from "../../img/BlockContacts/vk.svg";
 import Tg from "../../img/BlockContacts/tg.svg";
+import WhatsApp from "../../img/BlockContacts/wtsp.svg";
 import Avito from "../../img/BlockContacts/avito.svg";
 
 
@@ -30,7 +31,7 @@ const Contacts = forwardRef((props, ref) => {
                                 modules={["control.ZoomControl"]}
                                 options={{
                                     yandexMapDisablePoiInteractivity: true,
-                                    // suppressMapOpenBlock: true,
+                                    suppressMapOpenBlock: true,
                                     scrollZoom: false,
                                     theme: "dark",
                                 }}
@@ -58,11 +59,14 @@ const Contacts = forwardRef((props, ref) => {
                                 <span>Время работы: 10:00-18:00</span>
                             </contactsCSS.Point>
                             <contactsCSS.Icons>
-                                <a href="https://www.avito.ru/brands/novokuz" target="_blank" rel="noopener noreferrer">
+                                <a href="https://vk.com/autoplaynvkz?from=groups" target="_blank" rel="noopener noreferrer">
                                     <img src={Vk} alt="" />
                                 </a>
-                                <a href="https://www.avito.ru/brands/novokuz" target="_blank" rel="noopener noreferrer">
+                                <a href="https://t.me/autoplaynk" target="_blank" rel="noopener noreferrer">
                                     <img src={Tg} alt="" />
+                                </a>
+                                <a href="https://wa.me/79202465919?text=Здравствуйте!%20Сориентируйте,%20пожалуйста,%20по%20ассортименту%20вашего%20магазина." target="_blank" rel="noopener noreferrer">
+                                    <img src={WhatsApp} alt="" />
                                 </a>
                                 <a href="https://www.avito.ru/brands/novokuz" target="_blank" rel="noopener noreferrer">
                                     <img src={Avito} alt="" />

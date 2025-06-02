@@ -2,12 +2,12 @@ import React, { forwardRef } from "react";
 import { useSelector } from "react-redux"
 import bassonCSS from "../styles/basson.css";
 import Logo from "../../img/BlockBasson/BassLogo.png"
-import One from "../../img/BlockBasson/1.png"
-import Two from "../../img/BlockBasson/2.png"
-import Three from "../../img/BlockBasson/3.png"
-import Four from "../../img/BlockBasson/4.png"
-import Five from "../../img/BlockBasson/5.png"
-import Six from "../../img/BlockBasson/6.png"
+import One from "../../img/BlockBasson/1.svg"
+import Two from "../../img/BlockBasson/2.svg"
+import Three from "../../img/BlockBasson/3.svg"
+import Four from "../../img/BlockBasson/4.svg"
+import Five from "../../img/BlockBasson/5.svg"
+import Six from "../../img/BlockBasson/6.svg"
 
 const BassOn = forwardRef((props, ref) => {
     const sectionPadding = useSelector(state => (state.initial.sectionPadding));
@@ -20,7 +20,8 @@ const BassOn = forwardRef((props, ref) => {
                 <bassonCSS.SubTitle>Наш надежный партнер!</bassonCSS.SubTitle>
                 <bassonCSS.BassonContainer>
                     <bassonCSS.Desk>
-                        Сертифицированные в РФ андроид-магнитолы обеспечивают надежность, безопасность и соответствие российским стандартам. Магнитолы BASSON адаптированы для работы в любых климатических и дорожных условиях, гарантируя долгий эксплуатационный срок.
+                        <p>Сертифицированные в РФ андроид-магнитолы обеспечивают надежность, безопасность и соответствие российским стандартам.</p>
+                        <p>Магнитолы BASSON адаптированы для работы в любых климатических и дорожных условиях, гарантируя долгий эксплуатационный срок.</p>
                     </bassonCSS.Desk>
                     <bassonCSS.Points>
                         <bassonCSS.Point>

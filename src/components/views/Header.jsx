@@ -57,7 +57,8 @@ const Header = () => {
                             <NavButton isActive={buttonState[2]} href='#catalog'>Каталог</NavButton>
                             <NavButton isActive={buttonState[3]} href='#services'>Отзывы</NavButton>
                             <NavButton isActive={buttonState[4]} href='#basson'>BassOn</NavButton>
-                            <NavButton isActive={buttonState[5]} href='#contacts'>Контакты</NavButton>
+                            <NavButton isActive={buttonState[5]} href='#starline'>StarLine</NavButton>
+                            <NavButton isActive={buttonState[6]} href='#contacts'>Контакты</NavButton>
                         </headerCSS.MenuDesktopContainer>}
                     {clientMode === 'mobile' && <Burger ref={burgerRef} />}
                 </headerCSS.HeaderContainer>
@@ -70,7 +71,8 @@ const Header = () => {
                     <NavButton isActive={buttonState[2]} href='#catalog'>Каталог</NavButton>
                     <NavButton isActive={buttonState[3]} href='#services'>Отзывы</NavButton>
                     <NavButton isActive={buttonState[4]} href='#basson'>BassOn</NavButton>
-                    <NavButton isActive={buttonState[5]} href='#contacts'>Контакты</NavButton>
+                    <NavButton isActive={buttonState[5]} href='#starline'>StarLine</NavButton>
+                    <NavButton isActive={buttonState[6]} href='#contacts'>Контакты</NavButton>
                 </headerCSS.MenuMobileContainerWrap>
                 </headerCSS.MenuMobileContainer>}
         </>

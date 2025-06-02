@@ -1,10 +1,9 @@
 import React, { forwardRef, useEffect, useState } from "react";
-import { createPortal } from 'react-dom';
 import { useSelector } from "react-redux"
 import catalogCSS from "../styles/catalog.css";
 import SliderItem from "../shared/SliderItem";
 import Flicking, { ViewportSlot } from "@egjs/react-flicking";
-import { Arrow, AutoPlay, Fade } from "@egjs/flicking-plugins";
+import { Arrow } from "@egjs/flicking-plugins";
 import "@egjs/react-flicking/dist/flicking.css";
 import "@egjs/flicking-plugins/dist/arrow.css";
 import "../styles/Sliders.css";
@@ -20,7 +19,6 @@ const Other = importAll(require.context("../../img/BlockCatalog/Other", false, /
 const Catalog = forwardRef((props,ref) => {
     const sectionPadding = useSelector(state => (state.initial.sectionPadding));
     const [activeButton, setActiveButton] = useState([1, 0, 0, 0, 0]);
-    const slidesRerView = useSelector(state => (state.initial.clientMode)) === 'mobile' ? '1' : "";
     const _plugins = [
         new Arrow({
             parentEl: document.querySelector(".slider-container"), // Укажите ваш класс

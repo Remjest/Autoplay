@@ -6,6 +6,7 @@ import Advantages from "../blocks/Advantages";
 import Catalog from "../blocks/Catalog";
 import Reviews from "../blocks/Reviews";
 import BassOn from "../blocks/BassOn";
+import StarLine from "../blocks/StarLine";
 import Contacts from "../blocks/Contacts";
 import mainCSS from "../styles/main.css";
 
@@ -68,7 +69,8 @@ const Body = () => {
                     <Catalog ref={el => addToRefs(el, 2)} />
                     <Reviews ref={el => addToRefs(el, 3)} />
                     <BassOn ref={el => addToRefs(el, 4)} />
-                    <Contacts ref={el => addToRefs(el, 5)} />
+                    <StarLine ref={el => addToRefs(el, 5)} />
+                    <Contacts ref={el => addToRefs(el, 6)} />
             </mainCSS.Body>
         </>
     );

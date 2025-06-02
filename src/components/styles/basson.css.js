@@ -44,25 +44,31 @@ const bassonCSS = {
         }
     `,
     Desk: styled.div`
-    /* background-color: red; */
         max-width: 50%;
         margin-right: 20px;
-        color: rgb(255, 255, 255);
-        font-style: italic;
-        font-size: 30.16px;
-        font-weight: 150;
-        line-height: 37px;
-        letter-spacing: 0.05rem;
-        text-align: left;
+        p {
+            text-indent: 40px;
+            color: rgb(255, 255, 255);
+            font-style: italic;
+            font-size: 30.16px;
+            font-weight: 150;
+            line-height: 37px;
+            letter-spacing: 0.05rem;
+            text-align: left;
+        }
         @media (max-width: 900px) {
             margin-right: 0px;
             max-width: 100%;
-            font-size: 25px;
-            text-align: center;
+            p {
+                font-size: 25px;
+                text-align: center;
+            }
         }
         @media (max-width: 630px) {
-            font-size: 16.8px;
-            line-height: 18px;
+            p {
+                font-size: 16.8px;
+                line-height: 18px;
+            }
         }
     `,
     Points: styled.div`
@@ -101,7 +107,7 @@ const bassonCSS = {
         @media (min-width: 1025px) {
             transition: all 0.2s ease-in-out;
             &:hover{
-                transform: scale(1.1);
+                transform: scale(1.05);
             }
             
         }

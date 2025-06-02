@@ -13,7 +13,7 @@ const mainCSS = {
         width: 100%;
         padding: 77px ${props => (props.$pad)};
         background-color: rgb(255, 255, 255);
-        @media (max-width: 425px) {
+        @media (max-width: 530px) {
             padding-top: 40px;
             padding-bottom: 40px;
         }

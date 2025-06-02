@@ -34,7 +34,7 @@ const headerCSS = {
     `,
     MenuDesktopContainer: styled.div`
         display: flex;
-        width: ${(770 / 1440) * 100}%;
+        width: ${(920 / 1440) * 100}%;
         max-width: 770px;
         height: 27px;
         justify-content: space-between;

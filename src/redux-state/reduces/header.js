@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     showBurger: false,
-    activeButton: [0, 0, 0, 0, 0, 0],
+    activeButton: [0, 0, 0, 0, 0, 0, 0],
 }
 
 export const headerReducer = createSlice({
