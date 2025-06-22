@@ -8,8 +8,8 @@ import Three from "../../img/BlockStarline/3.svg"
 import Four from "../../img/BlockStarline/4.svg"
 import Five from "../../img/BlockStarline/5.svg"
 import Six from "../../img/BlockStarline/6.svg"
-import Cert1 from "../../img/BlockStarline/Cert1.png"
-import Cert2 from "../../img/BlockStarline/Cert2.png"
+import Cert1 from "../../img/BlockStarline/Cert1.jpg"
+import Cert2 from "../../img/BlockStarline/Cert2.jpg"
 import Exit from "../../img/BlockStarline/Exit.svg"
 
 
