@@ -28,7 +28,7 @@ const Advantages = forwardRef((props, ref) => {
                                 </advantagesCSS.BlockTitle>
                             </advantagesCSS.BlockTop>
                             <advantagesCSS.BlockDesk>
-                                <span>От освременных аудиосистем до стильных гаджетов - у нас есть все, чтобы сделать вашу поездку комфортной и приятной</span>
+                                <span>От современных аудиосистем до стильных гаджетов — у нас есть все, чтобы сделать вашу поездку комфортной и приятной</span>
                             </advantagesCSS.BlockDesk>
                         </advantagesCSS.Block>
                         <advantagesCSS.Block>
@@ -54,7 +54,7 @@ const Advantages = forwardRef((props, ref) => {
                                 </advantagesCSS.BlockTitle>
                             </advantagesCSS.BlockTop>
                             <advantagesCSS.BlockDesk>
-                                <span>Dы можете быть уверены долговечности и надежноси наших продуктов</span>
+                                <span>Вы можете быть уверены в долговечности и надежности наших продуктов</span>
                             </advantagesCSS.BlockDesk>
                         </advantagesCSS.Block>
                         <advantagesCSS.Block>
@@ -67,7 +67,7 @@ const Advantages = forwardRef((props, ref) => {
                                 </advantagesCSS.BlockTitle>
                             </advantagesCSS.BlockTop>
                             <advantagesCSS.BlockDesk>
-                                <span>Наши партнеры - это опытные специалисти,которые знают, как добиться идеального звучания в любом автомобиле</span>
+                                <span>Наши партнеры — это опытные специалисты, которые знают, как добиться идеального звучания в любом автомобиле</span>
                             </advantagesCSS.BlockDesk>
                         </advantagesCSS.Block>
                         <advantagesCSS.Block>

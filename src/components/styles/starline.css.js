@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import mainCSS from "./main.css";
 import bassonCSS from "./basson.css";
-import Background from "../../img/BlockStarline/starlineBack.png"
+import Background from "../../img/BlockStarline/starlineBack.jpg"
 
 const starlineCSS = {
     Starline: styled(mainCSS.NewSection)`
-        background: url(${Background}) bottom center/cover no-repeat;
+        background: url(${Background})  center/cover no-repeat;
         flex-direction: column;
         align-items: center;
     `,
@@ -23,7 +23,7 @@ const starlineCSS = {
         }
     `,
     Title: styled.div`
-        color: rgb(255, 255, 255);
+        color: rgb(0,92,153);
         font-size: 58.01px;
         font-weight: 800;
         letter-spacing: 0.2rem;
@@ -35,6 +35,7 @@ const starlineCSS = {
         }
     `,
     SubTitle: styled(bassonCSS.SubTitle)`
+        color: rgb(52,52,52);
         font-size: 37.11px;
         font-weight: 400;
         @media (max-width: 630px) {
@@ -42,6 +43,10 @@ const starlineCSS = {
         }
     `,
     Desk: styled(bassonCSS.Desk)`
+        p{
+            color: rgb(52,52,52);
+            font-weight: 400;
+        }
         @media (max-width: 900px) {
             display: flex;
             flex-direction: column;
@@ -92,7 +97,7 @@ const starlineCSS = {
         padding: 21px;
         margin-top: 73px;
         border-radius: 16px;
-        background: rgb(255, 135, 62);
+        background:  rgb(52,52,52);
         img{
             margin-left: 37px;
         }
