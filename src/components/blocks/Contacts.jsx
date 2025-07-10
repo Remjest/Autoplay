@@ -10,7 +10,7 @@ import Avito from "../../img/BlockContacts/avito.svg";
 
 const Contacts = forwardRef((props, ref) => {
     const sectionPadding = useSelector(state => (state.initial.sectionPadding));
-    const center = [53.768714,87.121617];
+    const center = [53.768194,87.122477];
 
     return (
         <>
@@ -18,7 +18,6 @@ const Contacts = forwardRef((props, ref) => {
                 <contactsCSS.ContactsTop ref={ref} id="contacts"/>
                 <contactsCSS.ContactsContainer>
                     <contactsCSS.Map>
-                        {/* <img style={{transform: "scale(2)"}} src="https://static-maps.yandex.ru/v1?ll=87.121617,53.768714&size=450,450&z=16&pt=87.121617,53.768714,pm2wtm&lang=ru_RU&theme=dark&maptype=driving&apikey=2abd92c5-a1ee-48ca-8781-99221ce83023" alt="" /> */}
                         <YMaps query={{ apikey: "0e41cf21-dcbb-4f07-aad8-3cb488036754" }}>
                             <Map
                                 defaultState={{

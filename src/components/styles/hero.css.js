@@ -29,7 +29,7 @@ const heroCSS = {
         justify-content: space-between;
         height: 70%;
     `,
-    InfoContainer: styled.div`
+    InfoContainer: styled.h1`
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -46,8 +46,6 @@ const heroCSS = {
         letter-spacing: 6.5px;
         text-align: left;
         text-transform: uppercase;
-        opacity: 1;
-        animation: H1Animation 1s ease-out 1s both;
         @media (max-width: 1165px) {
             height: 72px;
             font-size: 59px;
@@ -58,14 +56,6 @@ const heroCSS = {
             font-size: 35px;
             line-height: 35px;
             letter-spacing: 4px;
-        }
-        @keyframes H1Animation {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
         }
     `,
     SubText: styled.span`
@@ -80,7 +70,6 @@ const heroCSS = {
         letter-spacing: 3px;
         text-align: center;
         text-shadow: 0px 3.8px 3.8px rgba(0, 0, 0, 0.18);
-        animation: SubTextAnimation 0.6s ease-out 1.4s both;
         @media (max-width: 1300px) {
             width: 78%;
         }
@@ -93,14 +82,6 @@ const heroCSS = {
             font-size: 10.47px;
             line-height: 10.5px;
             width: 90%;
-        }
-        @keyframes SubTextAnimation {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
         }
     `,
     HeroButton: styled.div`

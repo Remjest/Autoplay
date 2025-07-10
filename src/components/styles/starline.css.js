@@ -22,7 +22,8 @@ const starlineCSS = {
             margin-top: 25px;
         }
     `,
-    Title: styled.div`
+    Title: styled.h2`
+        display: block;
         color: rgb(0,92,153);
         font-size: 58.01px;
         font-weight: 800;

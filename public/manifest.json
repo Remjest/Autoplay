@@ -1,6 +1,6 @@
 {
-  "short_name": "Autoplay",
-  "name": "Autoplay — автоакустика и аксессуары",
+  "short_name": "AutoPlay",
+  "name": "AutoPlay — автоакустика и аксессуары",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",

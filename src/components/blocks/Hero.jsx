@@ -19,7 +19,7 @@ const Hero = forwardRef((props, ref) => {
                     <heroCSS.InfoContainer>
                         <heroCSS.H1>AUTOPLAY</heroCSS.H1>
                         <heroCSS.SubText>
-                            ваш надежный партнер в мире автоакустики и аксессуаров
+                            Ваш эксперт по автоакустике и автомобильным аксессуарам в Новокузнецке
                         </heroCSS.SubText>
                     </heroCSS.InfoContainer>
                     <NavButton href='#advantages'>
