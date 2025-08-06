@@ -10,7 +10,7 @@ import Avito from "../../img/BlockContacts/avito.svg";
 
 const Contacts = forwardRef((props, ref) => {
     const sectionPadding = useSelector(state => (state.initial.sectionPadding));
-    const center = [53.768194,87.122477];
+    const center = [53.76883,87.12149];
 
     return (
         <>
@@ -67,7 +67,7 @@ const Contacts = forwardRef((props, ref) => {
                                 <a href="https://wa.me/79202465919?text=Здравствуйте!%20Сориентируйте,%20пожалуйста,%20по%20ассортименту%20вашего%20магазина." target="_blank" rel="noopener noreferrer">
                                     <img src={WhatsApp} alt="" />
                                 </a>
-                                <a href="https://www.avito.ru/brands/novokuz" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.avito.ru/brands/autoplay" target="_blank" rel="noopener noreferrer">
                                     <img src={Avito} alt="" />
                                 </a>
                             </contactsCSS.Icons>

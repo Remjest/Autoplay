@@ -28,7 +28,7 @@ const Footer = () => {
                         </footerCSS.PointInfo>
                         <footerCSS.PointImg><img src={Vk} alt="" /></footerCSS.PointImg>
                     </footerCSS.Point>
-                    <footerCSS.Point href="https://www.avito.ru/brands/novokuz" target="_blank" rel="noopener noreferrer">
+                    <footerCSS.Point href="https://www.avito.ru/brands/autoplay" target="_blank" rel="noopener noreferrer">
                         <footerCSS.PointImg style={{ width: '100%' }}><img src={Avito} alt="" /></footerCSS.PointImg>
                     </footerCSS.Point>
                 </footerCSS.FooterContainer>
